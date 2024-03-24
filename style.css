@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    display: block;
+    margin: 5px;
+}
+
+.canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #212121;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+
+#grey {
+    background: grey;
+}
+
+#white {
+    background: white;
+}
+
+#purple {
+    background: purple;
+}
+
+#yellow {
+    background: yellow;
+}
+
+#pink {
+    background: pink;
+}
+
+#orange {
+    background: orange;
+}
+
+#blue {
+    background: rgba(0, 117, 171, 0.399);
+}
+
+#green {
+    background: green;
+}
+
+#black {
+    background: black;
+}
+
+#indianred{
+    background: indianred;
+}
+
+p {
+    margin-top: 20px;
+}
