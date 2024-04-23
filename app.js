@@ -1,8 +1,8 @@
 const spanButtons = document.querySelectorAll(".button");
 const changeBodyColor = document.querySelector("body");
 
-spanButtons.forEach((button) => {
-  button.addEventListener("click", (event) => {
+spanButtons.forEach(button => {
+  button.addEventListener("click", event => {
     if (event.target.id === "grey") {
       changeBodyColor.style.backgroundColor = event.target.id;
       changeBodyColor.style.color = "black";
@@ -23,11 +23,13 @@ spanButtons.forEach((button) => {
       changeBodyColor.style.color = "black";
     } else if (event.target.id === "green") {
       changeBodyColor.style.backgroundColor = event.target.id;
+      changeBodyColor.style.color = "black";
     } else if (event.target.id === "black") {
       changeBodyColor.style.backgroundColor = event.target.id;
       changeBodyColor.style.color = "white";
     } else if (event.target.id === "indianred") {
       changeBodyColor.style.backgroundColor = event.target.id;
+      changeBodyColor.style.color = "black";
     } else {
       changeBodyColor.style.backgroundColor = event.target.id;
       changeBodyColor.style.color = "black";
